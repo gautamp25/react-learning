@@ -1,0 +1,29 @@
+What is npm?
+    - npm manages packages.It does not stand for "Node Package Manager"
+    - npm is package manager for the javascript programming langauge maintained by npm, Inc.
+    - It is default package manager for the JavaScript runtime environment Node.js
+    npm is a package manager for JavaScript, primarily used for managing dependencies in Node.js projects. It is the default package manager for Node.js and comes bundled with Node.js installations. npm allows developers to easily install, share, and manage packages or modules of JavaScript code, making it easier to build complex applications by leveraging existing libraries and tools.
+
+Key features of npm include:
+
+    Package Installation: npm allows developers to install packages from the npm registry or from local or remote sources. Packages can be installed globally or locally to a specific project.
+
+    Dependency Management: npm automatically manages dependencies by installing the required packages for a project based on the dependencies listed in the package.json file. It also manages version conflicts and ensures that dependencies are resolved correctly.
+
+    Version Management: npm allows developers to specify version ranges for dependencies, ensuring that the correct versions of packages are installed. It also provides commands for updating packages to their latest versions or for installing specific versions of packages.
+
+    Scripting: npm allows developers to define custom scripts in the package.json file, which can be executed using the npm run command. This allows for automation of common tasks such as building, testing, and deploying applications.
+
+    Publishing Packages: npm allows developers to publish their own packages to the npm registry, making them available for other developers to use. This facilitates code sharing and collaboration within the JavaScript community.
+
+Overall, npm plays a crucial role in the JavaScript ecosystem by providing a centralized repository of packages and tools, making it easier for developers to build and maintain JavaScript applications.
+
+What is package.json?
+    - when we run "npm init" then this package.json file is created in our project.basically it is configuration file for npm.
+    - It contains configuration for our project.
+
+What is package-lock.json?
+    - It keeps track of exact version.
+
+Parcel is beast. It does lot of thing for us.
+Read about parcel-[parceljs.org](https://parceljs.org/)

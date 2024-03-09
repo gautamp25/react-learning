@@ -1,0 +1,40 @@
+Episode-03: Laying the Foundation
+1. Create scripts to start and build the project with standard convention in package.json file
+2. npx- Executing the npm package i.e parcel and giving the source file as index.html
+3. start the project - npm run start / npm start
+
+React Element-It is kind of equivalent to dom Element(like head,body,div)
+    - It is an object
+    - When we render this element onto the DOM it becomes HTML
+    - React.createElement => ReactElement - JS Object => HTMLElement(render)
+
+JSX(JavaScript XML)-
+    - JSX(Transpiled before it reaches the JS engine) - PARCEL -> Babel
+    - JSX is not HTML in JS- it is html or XML like syntax.
+    - JSX is not part of React, it is different. We can write React without JSX also
+    - But JSX makes developers life easy: it is convention where we kind of merge HTML & JS together.
+    - code is transpiled before it goes to JS engine.JS engine receives code that browser can understand.
+    - How JSX works? JSX => converted into React.createElement => ReactElement - JS Object => HTMLElement(render)
+    - Babel is converting JSX code into React.createElement or transpiles it to React.createElement
+    - Babel is a JavaScript compiler.(read more about Babel from website)
+    - use camelCase while writing attributes(like className,tabIndex) in JSX
+    - If you are writing JSX in multiline then use parenthesis ()
+    - JSX takes care of Injection attack. It sanitize the data. It prevents cross-side scripting attack.
+    - You can call function inside {} curly brace. e.g {Title()}
+    - JSX make code readable.
+   
+
+    
+JS- is code that JS engine can understand.
+    JS engine understand ECMAScript.
+
+React Component
+    - Class based Component- OLD way
+    - Functional Component-NEW way
+    1. Functional Component- Is a normal JS function that return peice of JSX code or that returns a react element/ bunch of react elements.
+        - First letter of functional component is Capital else it will throw an error
+        - We render react component wrapped inside </> this. e.g root.render(<HeadingComponent/>)
+        - Component composition:component inside component
+        - You can put react element inside functional component by using curly brace {}
+
+
